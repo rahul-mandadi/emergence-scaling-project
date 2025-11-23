@@ -1,0 +1,4 @@
+technique,llama-8b,llama-70b,gemini-pro
+cot,0.38,0.74,0.86
+few-shot,0.44,0.86,0.92
+zero-shot,0.48,0.62,0.76
