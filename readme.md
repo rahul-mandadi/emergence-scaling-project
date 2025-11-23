@@ -14,6 +14,7 @@ This project investigates whether large language models exhibit emergent abiliti
 - Results support **Schaeffer et al.'s "mirage" hypothesis**
 - Overall accuracy: **67.3%** on BIG-Bench Hard tasks
 - **"Reasoning Gap" identified**: Chain-of-Thought exhibits negative transfer on 8B models (38.0% vs 48.0% zero-shot)
+  - *Interpretation:* This aligns with the "Long CoT Degradation" phenomenon, where small models suffer from hallucination propagation in long reasoning chains
 - Best performance: **Few-shot with Gemini 2.5 Pro (92%)**
 
 ## Methodology
@@ -52,7 +53,7 @@ This project investigates whether large language models exhibit emergent abiliti
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/rahul-mandadi/emergence-scaling-project
+git clone https://github.com/rahulmandadi/emergence-scaling-project.git
 cd emergence-scaling-project
 ```
 
@@ -164,7 +165,7 @@ emergence-scaling-project/
 
 - **Course**: DS 5983 - Large Language Models
 - **Institution**: Northeastern University
-- **Semester**: Fall 2024
+- **Semester**: Fall 2025
 - **Project Type**: Final Research Project
 
 ## Key Contributions
@@ -192,10 +193,10 @@ emergence-scaling-project/
 ## Citation
 
 ```bibtex
-@misc{mandadi2025emergence,
+@misc{mandadi2024emergence,
   author = {Mandadi, Rahul Reddy},
   title = {Emergent or Gradual? Scaling Behavior of Prompt Engineering Techniques},
-  year = {2025},
+  year = {2024},
   institution = {Northeastern University},
   course = {DS 5983 - Large Language Models},
   url = {https://github.com/rahulmandadi/emergence-scaling-project}
