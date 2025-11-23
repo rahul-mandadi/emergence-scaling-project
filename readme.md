@@ -52,7 +52,7 @@ This project investigates whether large language models exhibit emergent abiliti
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/rahulmandadi/emergence-scaling-project.git
+git clone https://github.com/rahul-mandadi/emergence-scaling-project
 cd emergence-scaling-project
 ```
 
