@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# API Keys and Config
+config.yaml
+auth.yaml
+.env
+
+# Data files (too large/sensitive)
+data/bbh/bbh/*.json
+data/bbh/code-davinci-002-outputs/
+data/processed/final_results*.csv
+data/checkpoints/
+data/raw/
+data/backups/
+
+# Results (can regenerate)
+results/figures/*.png
+results/figures/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
